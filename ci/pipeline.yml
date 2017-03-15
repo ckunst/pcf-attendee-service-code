@@ -46,4 +46,4 @@ jobs:
   - task: smoke_test
     file: attendee-service-source/ci/tasks/smoke-test.yml
     params:
-      ATTENDEE_SERVICE_URL: https://attendee-service.local.pcfdev.io 
+      ATTENDEE_SERVICE_URL: http://attendee-service.local.pcfdev.io 
